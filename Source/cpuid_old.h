@@ -443,12 +443,6 @@ static void cpuid_update_generic_info()
         case CPUID_MODEL_ATOM:
           cpufamily = CPUFAMILY_INTEL_6_13;
           break;
-        case CPUID_MODEL_YONAH:
-          cpufamily = CPUFAMILY_INTEL_YONAH;
-          break;
-        case CPUID_MODEL_MEROM:
-          cpufamily = CPUFAMILY_INTEL_MEROM;
-          break;
         case CPUID_MODEL_PENRYN:
           cpufamily = CPUFAMILY_INTEL_PENRYN;
           break;
